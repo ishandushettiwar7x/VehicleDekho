@@ -19,7 +19,6 @@ public class VehicleDekhoMain {
 		car.setMaximumTorque(4500);
 		car.setNumberOfGears(5);
 		car.setTransmissionType("Automatic");
-		//DisplayVehicle.printVehicleInfo(car);
 		//////////////////////////////////////
 		Bike bike = new Bike();
 		bike.setModelName("Hornet");

@@ -1,10 +1,12 @@
 package io.sevenx.vehicledekho.data;
 
 public class Car extends Vehicle {
-	public Car() {}
+	
 	private int horsePower;
 	private String transmissionType;
 	private int bootSpace;
+	
+	public Car() {}
 	
 	public int getHorsePower() {
 		return horsePower;

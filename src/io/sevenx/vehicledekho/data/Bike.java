@@ -1,9 +1,10 @@
 package io.sevenx.vehicledekho.data;
 
 public class Bike extends Vehicle {
-	public Bike() {}
 	private int cc;
 	private String brakeType;
+	
+	public Bike() {}
 	
 	public int getCc() {
 		return cc;
